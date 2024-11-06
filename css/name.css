@@ -58,6 +58,6 @@ button:hover {
     cursor: pointer;
 }
 
-.backspace, .space {
-    grid-column: span 5;
+.backspace, .space, .deleteName{
+    grid-column: span 4;
 }
