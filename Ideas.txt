@@ -26,3 +26,4 @@ Bad script for medieval
 Forum for 1920s 
 
 Todo:
+Get the Options Menu to make changes to text boxes.
