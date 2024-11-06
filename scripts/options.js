@@ -16,6 +16,7 @@ window.onload = function() {
 
     if (savedColor) {
         document.querySelector(`input[name="Box-Format"][value="${savedColor}"]`).checked = true;
+        /* Need to get colors from options form. Then, colors are loaded for text boxes. */
     }
 
     if (savedAutoType === 'true') {
