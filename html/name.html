@@ -14,7 +14,7 @@
 
     <!-- Added a button to sign in and play if the user alreday played the game before.
      This will pull back all the saved settings in the database -->
-     <button id="signIn">Sign in and Play</button>
+    <button id="signIn">Sign in and Play</button>
 
     <div id="keyboard">
         <button type="button" value="1" onclick="input_Run(this.value);">1</button>
@@ -56,9 +56,13 @@
         <button type="button" value="b" onclick="input_Run(this.value);">b</button>
         <button type="button" value="n" onclick="input_Run(this.value);">n</button>
         <button type="button" value="m" onclick="input_Run(this.value);">m</button>
-
+        
+      
         <button type="button" class="space" value=" " onclick="input_Run(this.value);">Space</button>
         <button type="button" class="backspace" onclick="backspace();">Backspace</button>
+        <button type="button" class="deleteName" onclick="deleteName();">Delete</button>
+        
+        
     </div>
 
     <script src="../scripts/name.js"></script>

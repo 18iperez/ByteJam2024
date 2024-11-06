@@ -6,6 +6,10 @@ function backspace() {
     document.getElementById("textBar").value = document.getElementById("textBar").value.slice(0, -1);
 }
 
+function deleteName() {
+    document.getElementById('textBar').value = "";
+}
+
 function saveName() {
     const name = document.getElementById("textBar").value;
     if (name) {
