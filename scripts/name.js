@@ -14,4 +14,12 @@ function saveName() {
     } else {
         alert("Please enter a name before saving.");
     }
+}
+
+window.onload = function() {
+    const savedName = localStorage.getItem('playerName');
+    if (savedName) {
+        document.getElementById("textBar").value = savedName;
+        alert(`Welcome back, ${savedName}!`);
+    }
 };
