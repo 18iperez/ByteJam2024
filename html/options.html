@@ -12,33 +12,35 @@
         }
     </style>
 </head>
+
 <body>
     <h1>Options</h1>
-    <!--TODO: Set where the form data is sent to-->
-    <form>
+    <form id="optionsForm">
         <fieldset>
             <legend>Text Box Color</legend>
             <input type="radio" id="Light" name="Box-Format" value="Light">
-            <label for="Light">Standard Light</label>
+            <label for="Light">Standard Light</label><br>
             <input type="radio" id="Dark" name="Box-Format" value="Dark">
-            <label for="Dark">Standard Dark</label>
+            <label for="Dark">Standard Dark</label><br>
             <input type="radio" id="Mint" name="Box-Format" value="Mint">
-            <label for="Mint">Minty Fresh</label>
+            <label for="Mint">Minty Fresh</label><br>
             <input type="radio" id="Tan" name="Box-Format" value="Tan">
-            <label for="Tan">Summer Tan</label>
+            <label for="Tan">Summer Tan</label><br>
             <input type="radio" id="Gray" name="Box-Format" value="Gray">
-            <label for="Gray">Mettalic Gray</label>
+            <label for="Gray">Metallic Gray</label>
         </fieldset>
         <br>
-        
-        <input type="checkbox" id="auto-type" value="True">
-        <label for="auto-type">Type-Out Text</label>
-        <br>
 
-        <br><input type="submit" value="Save Changes">
+        <input type="checkbox" id="auto-type" value="True">
+        <label for="auto-type">Type-Out Text</label><br><br>
+
+        <input type="submit" value="Save Changes">
     </form>
     <div id="Text-box">
         <p>This is an example textbox.</p>
     </div>
+
+    <script src="../scripts/options.js"></script>
+    
 </body>
 </html>
