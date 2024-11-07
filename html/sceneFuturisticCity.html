@@ -1,0 +1,45 @@
+<!--This is for the futuristic city scene that is first area you -->
+<!--arrive in after the watch breaks -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>It's so bright!</title>
+</head>
+<body>
+<div class ="futureCity" id="futureCity">
+    <h1>After spiraling through time and space for what it has felt like an hour you feel a change in the air.</h1>
+    <p>You hear a ton of strange voices that keep getting louder and lights that keep growing brighter, you then cover your ears and shut your eyes.</p>
+    <p>You then feel a hand on your back.</p>
+    <p>You're eyes shoot wide open, and you turn behind to take a look.</p>
+    <p>You see what almost looks like a human, but it feels... very wrong.</p>
+    <p>You notice the human or creature is wearing a necklace with what seems like a piece of the watch that you saw break off.</p>
+    <p>But how would this thing be able to already have a necklace made out of a piece of the watch?!.</p>
+    <button class="futureCityChoice1-button1" onclick="futureCityChoice1()">How did you get that watch piece?! What is going on here?</button>
+    <button class="futureCityChoice2-button2" onclick="futureCityChoice2()">Give me that watch piece! NOW!</button>
+</div>
+<div class="futureCity-hiddenAgree1" id="futureCity-hiddenAgree1">
+    <img src="../images/futuristicCityHappyManWithEntity.webp" alt="EntityMan">
+    <p>Friendly Human: Very good, a curious mind, and we have the answers.</p>
+    <p>Friendly Human: Follow me to our kind leader and I will give you all the answers to everything</p>
+    <button class="futureCityChoice1_Choice1-button1" onclick="futureCityChoice1()">Okay I'll follow you!</button>
+    <button class="futureCityChoice2_Choice2-button2" onclick="futureCityChoice2()">*Snatch the watch piece and run*</button>
+    <div class="futureCityChoice1_Choice1-hiddenAgree1" id="futureCityChoice1_Choice1-hiddenAgree1">
+        <p>You get eaten by the entity!</p>
+        <p>Eaten by Entity Ending!</p>
+    </div>
+    <div class="futureCityChoice1_Choice2-hiddenDisagree1" id="futureCityChoice1_Choice2-hiddenDisagree1">
+        <p>You snatch the watch piece off of the thing and you then fall through a time stream.</p>
+<!--        This path takes the human further to the future, next step should be the wasteland I believe-->
+    </div>
+</div>
+
+<div class="futureCity1-hiddenDisagree1" id="futureCity1-hiddenDisagree1">
+    <img src="../images/futuristicCityCreepyUpsetHuman.webp" alt="humanMan">
+    <p>HuMAN: Careful, no need to be rude.</p>
+    <p>hUMAN: Our new world prospers off of acceptance and understanding, you don't want to upset it.</p>
+    <p>The man then begins to eat you and you fail your quest</p>
+    <p>Eaten by Futuristic Man Ending!</p>
+</div>
+</body>
+</html>
