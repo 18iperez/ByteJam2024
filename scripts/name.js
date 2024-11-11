@@ -27,3 +27,7 @@ window.onload = function() {
         alert(`Welcome back, ${savedName}!`);
     }
 };
+
+function Signin() {
+    window.location.href = 'scene1.html';
+}
