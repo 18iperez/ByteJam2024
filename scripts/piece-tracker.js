@@ -20,7 +20,7 @@ function CollectPiece(n){
             } 
         }
     }
-    return Collected
+    return Collected;
 }
 
 function AddPiece(){
