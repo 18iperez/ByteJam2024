@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    transition: transform 0.1s;
+}
+
+#layer1 {
+    background-image: url('../images/time.jpg');
+    z-index: 1;
+}
+
+#layer2 {
+    background-image: url('../images/stickmanWatchHappy.webp');
+    z-index: 2;
+    opacity: 0.8; 
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.buttons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
