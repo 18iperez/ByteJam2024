@@ -20,7 +20,16 @@
             text-align: center;
         }
 
-        .playPhoneCall{
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: #ff99cc;
+            color: #92929e;
+        }
+
+        .playPhoneCall, .takeWatch, .denyEggs, .getEggs, .ending1-GoBack, .continueScenicRoute, .lookAtStrangeMan, .giveWatch, .takeWatchPath, .giveWatchPath, a {
             padding: 10px 20px;
             font-size: 1em;
             margin: 10px;
@@ -32,7 +41,7 @@
             transition: background 0.3s, color 0.3s;
         }
 
-        .playPhoneCall:hover {
+        .playPhoneCall:hover, .takeWatch:hover, .denyEggs:hover, .getEggs:hover, .ending1-GoBack:hover, .continueScenicRoute:hover, .lookAtStrangeMan:hover, .giveWatch:hover, .takeWatchPath:hover, .giveWatchPath:hover {
             background-color: #ff99cc;
             color: #1e1e2e;
         }
@@ -95,23 +104,18 @@
 <div class="giveWatchPath hidden" id="giveWatchPath">
     <p>You decide the right thing to do is give the watch back</p>
     <p>As you give the watch back, the world begins to turn bright</p>
+    <br>
     <a href="future-scenes/sceneFuturisticCity.html">Continue</a>
+    <a href="future-scenes/secretEnding2.html">Go To End Of Time</a>
 
 </div>
 <div class="takeWatchPath hidden" id="takeWatchPath">
     <p>You've had a bad day. You decide this watch should be yours. You take it</p>
     <p>As you try to escape with the watch, the world begins to turn bright</p>
+    <br>
     <a href="past-scenes/scene2p.html">Continue</a>
+    <a href="past-scenes/secretEnding1.html">Go To Beginning Of Time</a>
 </div>
-<!--    <div id="textbox hidden" class="textbox">-->
-<!--    <a href="">-->
-<!--        <button>Return it</button>-->
-<!--    </a>-->
-<!--    <a href="past-scenes/scene2p.html">-->
-<!--        <button>Keep it</button>-->
-<!--    </a>-->
-<!--    </div>-->
-    
 </body>
 <script>
     // Function to play audio by button press if audio doesn't automatically play(Google won't let it auto play.)
