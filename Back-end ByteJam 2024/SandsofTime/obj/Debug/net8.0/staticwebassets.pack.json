@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/obj/Debug/net8.0/scopedcss/projectbundle/SandsofTime.bundle.scp.css",
+      "PackagePath": "staticwebassets/SandsofTime.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/Images/ancientCodingGod.webp",
+      "PackagePath": "staticwebassets/Images/ancientCodingGod.webp"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/Images/angryCat.avif",
+      "PackagePath": "staticwebassets/Images/angryCat.avif"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/Images/angryStickwomenOnStreet.webp",
+      "PackagePath": "staticwebassets/Images/angryStickwomenOnStreet.webp"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/Images/angrySusan.jpg",
+      "PackagePath": "staticwebassets/Images/angrySusan.jpg"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/Images/catsAtEndOfTime.webp",
+      "PackagePath": "staticwebassets/Images/catsAtEndOfTime.webp"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/Images/futuristicCIty.webp",
+      "PackagePath": "staticwebassets/Images/futuristicCIty.webp"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/Images/futuristicCityCreepyUpsetHuman.webp",
+      "PackagePath": "staticwebassets/Images/futuristicCityCreepyUpsetHuman.webp"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/Images/futuristicCityHappyManWithEntity.webp",
+      "PackagePath": "staticwebassets/Images/futuristicCityHappyManWithEntity.webp"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/Images/happyCat.avif",
+      "PackagePath": "staticwebassets/Images/happyCat.avif"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/Images/stickmanWatchHappy.webp",
+      "PackagePath": "staticwebassets/Images/stickmanWatchHappy.webp"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/Images/susan.PNG",
+      "PackagePath": "staticwebassets/Images/susan.PNG"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/Images/time.jpg",
+      "PackagePath": "staticwebassets/Images/time.jpg"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/css/name.css",
+      "PackagePath": "staticwebassets/css/name.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/css/title.css",
+      "PackagePath": "staticwebassets/css/title.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/js/name.js",
+      "PackagePath": "staticwebassets/js/name.js"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/js/parallax.js",
+      "PackagePath": "staticwebassets/js/parallax.js"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.SandsofTime.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.SandsofTime.props",
+      "PackagePath": "build\\SandsofTime.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.SandsofTime.props",
+      "PackagePath": "buildMultiTargeting\\SandsofTime.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.SandsofTime.props",
+      "PackagePath": "buildTransitive\\SandsofTime.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

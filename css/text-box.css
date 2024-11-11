@@ -1,6 +1,7 @@
 #textbox{
     margin-top: 1em;
     border: .75mm solid black;
+    background-color: rgba(240, 248, 255, 0.85);
     padding: 3mm;
     background-color: black;
     color: white;
