@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SandsofTime
 build_property.RootNamespace = SandsofTime
@@ -24,6 +32,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/Views/SandsOfTime/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2FuZHNPZlRpbWUvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/Views/SandsOfTime/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2FuZHNPZlRpbWUvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/Views/SandsOfTime/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2FuZHNPZlRpbWUvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/Views/SandsOfTime/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2FuZHNPZlRpbWUvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/Views/SandsOfTime/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2FuZHNPZlRpbWUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/Views/SandsOfTime/name.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2FuZHNPZlRpbWUvbmFtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/Views/Shared/Error.cshtml]
