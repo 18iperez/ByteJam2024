@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+    background-color: #000;
+    color: #FFF;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#textBar {
+    width: 300px;
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    border: 3px solid #FFF;
+    background-color: #000;
+    color: #FFF;
+    outline: none;
+}
+
+#keyboard {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;
+    margin-top: 20px;
+}
+
+button {
+    font-size: 1.2em;
+    background-color: #000;
+    color: #FFF;
+    border: 2px solid #FFF;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+#saveButton {
+    margin-top: 20px;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #FFF;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+.backspace, .space, .deleteName{
+    grid-column: span 4;
+}

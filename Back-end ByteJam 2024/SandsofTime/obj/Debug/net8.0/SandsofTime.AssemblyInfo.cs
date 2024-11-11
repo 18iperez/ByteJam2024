@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SandsofTime")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d229d98e8015d36af5bfb1e3c2b53fbcc28bdc3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+267963a079c6a2fd157a5459ffc6fb8ab6102ecc")]
 [assembly: System.Reflection.AssemblyProductAttribute("SandsofTime")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SandsofTime")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

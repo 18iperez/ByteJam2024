@@ -1,0 +1,49 @@
+@model SandsOfTime
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Options</title>
+    <link rel="stylesheet" href="~/css/text-box.css">
+</head>
+
+<body>
+<h1>Options</h1>
+<a asp-controller="Home" asp-action="Index">
+    <button value="Return to Title">Return to Title</button>
+</a>
+<form id="optionsForm" action="~/js/option.js">
+    <fieldset>
+        <legend>Text Box Color</legend>
+        <input type="radio" id="Light" name="Box-Format" value="white">
+        <label for="Light">Standard Light</label><br>
+        <input type="radio" id="Dark" name="Box-Format" value="black">
+        <label for="Dark">Standard Dark</label><br>
+        <input type="radio" id="Mint" name="Box-Format" value="mint">
+        <label for="Mint">Minty Fresh</label><br>
+        <input type="radio" id="Tan" name="Box-Format" value="tan">
+        <label for="Tan">Summer Tan</label><br>
+        <input type="radio" id="Gray" name="Box-Format" value="gray">
+        <label for="Gray">Metallic Gray</label>
+    </fieldset>
+    <br>
+
+    <input type="checkbox" id="auto-type" value="True">
+    <label for="auto-type">Type-Out Text</label><br><br>
+
+    <input type="submit" value="Save Changes">
+</form>
+<div id="textbox">
+    <p>This is an example textbox.</p>
+</div>
+
+<script src="~/js/option.js"></script>
+    
+</body>
+</html>
