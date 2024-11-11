@@ -30,6 +30,3 @@ window.onload = function() {
     }
 };
 
-function Signin() {
-    window.location.href = 'scene1.html';
-}
