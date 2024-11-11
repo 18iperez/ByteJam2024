@@ -4,6 +4,7 @@ function CollectPiece(n){
         var Piece1 = 1;
         var Piece2 = 1;
         var Piece3 = 1;
+        var Stone = 0;
     }
     if (n == 1) {
         Collected += Piece1;
@@ -23,6 +24,12 @@ function CollectPiece(n){
     return Collected;
 }
 
-function AddPiece(){
+function GetStone(){
+    Stone = 1;
+}
 
+function Completion(n){
+    if (n == 3) {
+        document.getElementsByTagName("a").setAttribute(href, sceneTrueEnd.html);
+    }
 }

@@ -10,12 +10,11 @@
         body{
             background-image: url("../../images/Forest.jpg");
             background-size: 100%;
-            background-attachment: fixed;
+            background-attachment: scroll;
         }
     </style>
 </head>
 <body>
-    <div class="parallax"></div>
     <div id="textbox">
         <p>Realizing the opportunity to do so, you travel to the prehistoric era.</p>
         <p>You wonder if you can find anything interesting to bring back with you.</p>
@@ -24,9 +23,7 @@
         <p>There's no way that there could be a part for the stopwatch here.</p>
         <p>You could continue exploring here, but there's no reason to right now.</p>
         <p>When would you like to travel to next?</p>
-        <a href="sceneprehistory.html">
-            <button>Continue exploring</button>
-        </a>
+        <button onclick="PrehistoryText()">Continue exploring</button>
         <a href="sceneMedieval.html">
             <button>Medieval</button>
         </a>
@@ -34,7 +31,7 @@
             <button>Prohibition Era</button>
         </a>
     </div><br>
-    <div>
+    <div class="2" id="textbox">
         <!-- Continue exploring -->
          <p>After looking around, you notice a cave nearby.</p>
          <p>You enter the cave, and turn on your phone's flashlight.</p>
@@ -50,5 +47,6 @@
             <button>Prohibition Era</button>
         </a>
     </div>
+    <script src="../../scripts/text-insert.js"></script>
 </body>
 </html>
