@@ -25,7 +25,7 @@
             However, whenever and wherever you travel to will have a part or something needed to get a part.</p>
         <p>It looks like you'll need to find three parts to fully fix it. </p>
         <p>After looking around in the store for a bit, you find a part for the pocketwatch!</p>
-        <p onload="alert.CollectPiece(1)">You buy the part and put it in the watch.</p>
+        <p id="collectPieceMessage">You buy the part and put it in the watch.</p>
         <p>It seems like you might be able to time travel, but only to a few points in time until it is fully fixed.</p>
         <p>When would you like to travel to next?</p>
         <a href="sceneprehistory.html">
@@ -38,5 +38,10 @@
             <button>Prohibition Era</button>
         </a>
     </div><br>
+    <script>
+        window.onload = function() {
+            CollectPiece(1);
+        };
+    </script>
 </body>
 </html>
