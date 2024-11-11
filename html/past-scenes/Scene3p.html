@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Where are You? </title>
+    <title>Where are You?</title>
     <link rel="stylesheet" href="../../css/text-box.css">
+    <style>
+        body{
+            background-image: url("../../images/city-street-2000.jpg");
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+    </style>
 </head>
 <body>
+    <script src="../../scripts/piece-tracker.js"></script>
+    <div class="parallax"></div>
     <div id="textbox">
         <p>You grab the pocketwatch before it gets away.</p>
         <p>As soon as you grab it, everything seems to return to normal.</p>
@@ -19,8 +28,8 @@
         <p>After realizing this started after picking up the pocketwatch, you check the back and see it has small screws holding the back plate.</p>
         <p>New Objective: Go Find a Screwdriver.</p>
         <p>Where do you want to go?</p>
-        <a href="">
-            <button>Hardware Store</button>
+        <a href="sceneStore.html">
+            <button onclick="CollectPiece(0)">Hardware Store</button>
         </a>
     </div><br>
 </body>

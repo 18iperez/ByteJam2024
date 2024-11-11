@@ -5,16 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hardware Store</title>
     <link rel="stylesheet" href="../../css/text-box.css">
+    <link rel="stylesheet" href="../../css/scene.css">
+    <style>
+        body{
+            background-image: url("../../images/Hardware-Store.jpg");
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+    </style>
+    <script src="../../scripts/piece-tracker.js"></script>
 </head>
 <body>
+    <div class="parallax"></div>
     <div id="textbox">
         <p>At the Hardware Store, you look around for a Screwdriver small enough to fit the pocketwatch.</p>
         <p>You find one that will work, and buy it with the money you have on hand.</p>
-        <p>Unscrewing the back of the plate reveals a piece of paper with instructions on how to fix it</p>
-        <p>It looks like you'll need to find a Gear, a Battery, and </p>
-        <a href="">
-            <button>Hardware Store</button>
+        <p>Unscrewing the back of the plate reveals a piece of paper with instructions on how to fix it, and how to use it!</p>
+        <p>The instructions also state that if some parts are broken, time travel is limited. 
+            However, whenever and wherever you travel to will have a part or something needed to get a part.</p>
+        <p>It looks like you'll need to find three parts to fully fix it. </p>
+        <p>After looking around in the store for a bit, you find a part for the pocketwatch!</p>
+        <p id="collectPieceMessage">You buy the part and put it in the watch.</p>
+        <p>It seems like you might be able to time travel, but only to a few points in time until it is fully fixed.</p>
+        <p>When would you like to travel to next?</p>
+        <a href="sceneprehistory.html">
+            <button>Prehistory</button>
+        </a>
+        <a href="sceneMedieval.html">
+            <button>Medieval</button>
+        </a>
+        <a href="scene1920s.html">
+            <button>Prohibition Era</button>
         </a>
     </div><br>
+    <script>
+        window.onload = function() {
+            CollectPiece(1);
+        };
+    </script>
 </body>
 </html>

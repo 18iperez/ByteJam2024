@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    background-image: url('../images/time.jpg');
 }
 h1{
     align-self: center;
@@ -21,18 +22,12 @@ div{
 }
 
 #layer1 {
-    background-image: url('../images/time.jpg');
+    background-image: url('../images/stickmanWatchHappy.webp');
     z-index: 1;
 }
 
 #layer2 {
-    background-image: url('../images/angryCat.avif');
+    background-image: url('../images/time.jpg');
     z-index: 2;
-    opacity: 0.8; 
-}
-
-#layer3 {
-    background-image: url('../images/angryStickwomenOnStreet.webp');
-    z-index: 3;
-    opacity: 0.6;
+    opacity: 0.5; 
 }
