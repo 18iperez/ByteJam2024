@@ -19,7 +19,9 @@ function saveName() {
         alert("Please enter a name before saving.");
     }
 }
-
+function Signin() {
+    window.location.href = 'scene1.html';
+}
 window.onload = function() {
     const savedName = localStorage.getItem('playerName');
     if (savedName) {
