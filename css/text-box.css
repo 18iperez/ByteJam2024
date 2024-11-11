@@ -2,4 +2,8 @@
     margin-top: 1em;
     border: .75mm solid black;
     padding: 3mm;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
 }    
