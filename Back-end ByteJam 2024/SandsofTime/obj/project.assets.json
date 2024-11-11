@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kiennguyen/Desktop/ByteJam 2024/Back-end ByteJam 2024/SandsofTime/SandsofTime.csproj",
+      "projectUniqueName": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/SandsofTime.csproj",
       "projectName": "SandsofTime",
-      "projectPath": "/Users/kiennguyen/Desktop/ByteJam 2024/Back-end ByteJam 2024/SandsofTime/SandsofTime.csproj",
+      "projectPath": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/SandsofTime.csproj",
       "packagesPath": "/Users/kiennguyen/.nuget/packages/",
-      "outputPath": "/Users/kiennguyen/Desktop/ByteJam 2024/Back-end ByteJam 2024/SandsofTime/obj/",
+      "outputPath": "/Users/kiennguyen/Desktop/ByteJam 2024/ByteJam2024/Back-end ByteJam 2024/SandsofTime/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kiennguyen/.nuget/NuGet/NuGet.Config"
