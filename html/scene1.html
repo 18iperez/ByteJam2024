@@ -5,23 +5,237 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Story Begins</title>
     <link rel="stylesheet" href="../css/text-box.css">
-    <link rel="stylesheet" href="../css/scene.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+
+        /*Temporary css until we have an overarking theme for the whole game/website*/
+        body {
+            background: linear-gradient(to bottom, #1e1e2e, #000000);
+            color: #e0e0e0;
+            font-family: "Courier New", Courier, monospace;
+            overflow-y: auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .playPhoneCall{
+            padding: 10px 20px;
+            font-size: 1em;
+            margin: 10px;
+            color: #ffddff;
+            background-color: #333;
+            border: 1px solid #ff99cc;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .playPhoneCall:hover {
+            background-color: #ff99cc;
+            color: #1e1e2e;
+        }
+        .angryWoman {
+            max-width: 80%;
+            height: auto;
+            border-radius: 15px;
+            margin: 15px 0;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+        }
+    </style>
 </head>
 <body>
-    <div class="parallax" id="Scene01">
-        <div class="parallax" id="Scene1"></div>
-    </div>
-    <div id="textbox">
-        <p>Walk home from work</p>
-        <p>Person in front of you drops a pocketwatch.</p>
-        <p>You pick it up</p>
-        <p>Do you return it to the person who dropped it?</p>  
-        <a href="">
-            <button>Return it</button>
-        </a>
-        <a href="past-scenes/scene2p.html">
-            <button>Keep it</button>
-        </a>      
-    </div>  
+<!--Audio Stuff-->
+<audio id="scene1-phoneCall" src="/audio/phoneCall.mp3"></audio>
+<audio id="manThoughts1" src="/audio/mansThoughts1.mp3"></audio>
+<audio id="manThoughts2" src="/audio/mansThoughts2.mp3"></audio>
+<audio id="giveWatch" src="/audio/manGivesWatch.mp3"></audio>
+<audio id="takeWatch" src="/audio/takeWatch.mp3"></audio>
+<div class="scene1-start" id="scene1-start">
+    <h1>
+        John has had such a bad day at work, 12 call offs, his salary got cut. Nothing seems to be going right for him currently.
+    </h1>
+    <p>
+        As John is walking out of work he sees a call from his wife.
+    </p>
+    <button class="playPhoneCall" onClick="playPhoneCall()">Answer Call</button>
+</div>
+<div class="scene1-start2 hidden" id="scene1-start2">
+    <p>You answer the call, and listen to you wife speak.</p>
+    <button class="denyEggs" onClick="denyEggs()">Don't Get Eggs</button>
+    <button class="getEggs" onClick="getEggs()">Go Get Eggs</button>
+
+</div>
+<div class="scene1-path1 hidden" id="scene1-path1">
+    <p>WE ARE OVER!!!</p>
+    <p>Ending 1 Found! The Divorce Ending!</p>
+    <img src="/images/angryWoman.png" alt="angryWoman" class="angryWoman" />
+    <button class="ending1-GoBack" onclick="ending1GoBack()">Go Back</button>
+</div>
+<div class="scene1-path2 hidden" id="scene1-path2">
+    <p>You think to yourself as you begin your slow journey to the store</p>
+    <p>You try not to let your frustration consume you, but it is difficult.</p>
+    <button class="continueScenicRoute" onclick="continueScenicRoute()">Continue Scenic Route</button>
+</div>
+<div class="scene1-path2-path1 hidden" id="scene1-path2-path1">
+    <p>You continue your thoughts as you travel further</p>
+    <p>The area is unfamiliar.</p>
+    <p>The strange man really catches your attention</p>
+    <button class="lookAtStrangeMan" onclick="lookAtStrangeMan()">Look At Strange Man</button>
+</div>
+<div class="scene1-path2-path1-path1 hidden" id="scene1-path2-path1-path1">
+    <p>The strange man drops his watch.</p>
+    <p>He doesn't seem to notice</p>
+    <p>You have had such a bad day, maybe a free watch could make up for it?</p>
+    <p>Should you give the watch back?</p>
+    <button class="giveWatch" onclick="giveWatch()">Give Watch Back</button>
+    <button class="takeWatch" onclick="takeWatch()">Take Watch Back</button>
+</div>
+<div class="giveWatchPath hidden" id="giveWatchPath">
+    <p>You decide the right thing to do is give the watch back</p>
+    <p>As you give the watch back, the world begins to turn bright</p>
+    <a href="future-scenes/sceneFuturisticCity.html">Continue</a>
+
+</div>
+<div class="takeWatchPath hidden" id="takeWatchPath">
+    <p>You've had a bad day. You decide this watch should be yours. You take it</p>
+    <p>As you try to escape with the watch, the world begins to turn bright</p>
+    <a href="past-scenes/scene2p.html">Continue</a>
+</div>
+<!--    <div id="textbox hidden" class="textbox">-->
+<!--    <a href="">-->
+<!--        <button>Return it</button>-->
+<!--    </a>-->
+<!--    <a href="past-scenes/scene2p.html">-->
+<!--        <button>Keep it</button>-->
+<!--    </a>-->
+<!--    </div>-->
+    
 </body>
+<script>
+    // Function to play audio by button press if audio doesn't automatically play(Google won't let it auto play.)
+    function playPhoneCall() {
+        const audio = document.getElementById("scene1-phoneCall");
+        // Catches error if audio doesn't work correctly
+        audio.play().catch(function (error) {
+            console.log("Error! Audio not working!")
+        });
+        // Used to hide and show sections as intended
+        document.getElementById("scene1-start").classList.add("hidden");
+        document.getElementById("scene1-start2").classList.remove("hidden");
+    }
+
+
+    // Function for the 'I do have food choice' to show it
+    function denyEggs() {
+        const prevAudio = document.getElementById("scene1-phoneCall");
+        prevAudio.pause();
+        // Restarts audio to 0 seconds
+        prevAudio.currentTime = 0;
+
+        document.getElementById("scene1-start2").classList.add("hidden");
+        document.getElementById("scene1-path1").classList.remove("hidden");
+    }
+
+    function getEggs() {
+        document.getElementById("scene1-start2").classList.add("hidden");
+        document.getElementById("scene1-path2").classList.remove("hidden");
+
+        const prevAudio = document.getElementById("scene1-phoneCall");
+        const audio = document.getElementById("manThoughts1");
+        // Catches error if audio doesn't work correctly
+
+        prevAudio.pause();
+
+        audio.play().catch(function (error) {
+            console.log("Error! Audio not working!")
+        });
+        // Used to hide and show sections as intended
+
+    }
+
+    function continueScenicRoute() {
+        document.getElementById("scene1-path2").classList.add("hidden");
+        document.getElementById("scene1-path2-path1").classList.remove("hidden");
+
+        const prevAudio = document.getElementById("manThoughts1");
+        const audio = document.getElementById("manThoughts2");
+        // Catches error if audio doesn't work correctly
+
+        prevAudio.pause();
+        // Restarts audio to 0 seconds
+        prevAudio.currentTime = 0;
+
+        audio.play().catch(function (error) {
+            console.log("Error! Audio not working!")
+        });
+        // Used to hide and show sections as intended
+
+    }
+
+    function lookAtStrangeMan() {
+        document.getElementById("scene1-path2-path1").classList.add("hidden");
+        document.getElementById("scene1-path2-path1-path1").classList.remove("hidden");
+
+        const prevAudio = document.getElementById("manThoughts2");
+        // Catches error if audio doesn't work correctly
+
+        prevAudio.pause();
+        // Restarts audio to 0 seconds
+        prevAudio.currentTime = 0;
+
+    }
+
+    function giveWatch() {
+        document.getElementById("scene1-path2-path1-path1").classList.add("hidden");
+        document.getElementById("giveWatchPath").classList.remove("hidden");
+
+        const audio = document.getElementById("giveWatch");
+
+        audio.play().catch(function (error) {
+            console.log("Error! Audio not working!")
+        });
+    }
+
+    function takeWatch() {
+        document.getElementById("scene1-path2-path1-path1").classList.add("hidden");
+        document.getElementById("takeWatchPath").classList.remove("hidden");
+
+        const audio = document.getElementById("takeWatch");
+
+        audio.play().catch(function (error) {
+            console.log("Error! Audio not working!")
+        });
+
+    }
+
+
+    // Function to go back to the main section if you want to see multiple endings
+    function ending1GoBack() {
+        // The window.location.href doesn't work as intended because it's not an actual website yet, I think
+        // window.location.href = "/html/future-scenes/secretEnding.html";
+        document.getElementById("scene1-path1").classList.add("hidden");
+        document.getElementById("scene1-start").classList.remove("hidden");
+    }
+
+    function goBack2() {
+        // The window.location.href doesn't work as intended because it's not an actual website yet, I think
+        // window.location.href = "/html/future-scenes/secretEnding.html";
+
+        document.getElementById("secretEnding2-hiddenAgree").classList.add("hidden");
+        document.getElementById("secretEnding2-hiddenDisagree").classList.add("hidden");
+        document.getElementById("secretEnding2Part2").classList.add("hidden");
+        document.getElementById("secretEnding2").classList.remove("hidden");
+
+        const audio = document.getElementById("secretEnding2-music");
+        audio.pause().catch(function(error){
+            console.log("Error! Audio not working!")
+        });
+    }
+
+    function goToHomePage() {
+        window.location.href = "..//index.html";
+    }
+    </script>
 </html>
